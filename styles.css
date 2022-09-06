@@ -1,0 +1,393 @@
+
+
+li, a, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+model-viewer {
+    position: relative;
+    width: 100%;
+    height: 30vw;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+header img {
+    cursor: pointer;
+    width: 6rem;
+
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+    color: #0088a9;
+}
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background: #24252A;
+    overflow-x: hidden;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw; 
+}
+
+.darkblue {
+    background: #30017E;
+}
+
+.lightblue {
+    background: #96A2FB;
+}
+
+.pink {
+    background: #FB806F;
+}
+.white {
+    background: #FFFFFF;
+}
+
+.spacer {
+    aspect-ratio: 960/300;
+    wdith: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.layer1 {
+    background-image: url('Pick&GoAssets/layered-waves-haikei.svg');
+}
+
+.layer2 {
+    background-image: url('Pick&GoAssets/stacked-waves-haikei2.svg');
+}
+
+.flip {
+    transform: rotate(180deg);
+}
+
+.blob-motion {
+    position: relative;
+    transform: translateY(-20%);
+}
+
+footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.name {
+    margin: 1em;
+    color: grey;
+}
+.copyright {
+    margin: 1em;
+    color: grey;
+}
+
+hr {
+    background-color: #FB806F;
+    border: #d0614d;
+    height: 3px;
+}
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: #24252A;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px; 
+}
+
+.intro h1{
+    color: #FB806F;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin: 0;
+}
+
+.intro .title2 {
+
+    margin: 0 auto;
+    z-index: 1;
+    width: 100%;
+    text-transform: none;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.intro .title2:hover {
+    color: #FB806F;
+
+}
+
+.intro p {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
+
+
+
+#aboutApp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: #24252A;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    background: #30017E;
+    background-color: #30017E;  
+
+}
+
+#aboutApp h1 {
+    color: #FB806F;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin: 0;
+}
+#aboutApp h1:hover {
+    color: white;
+}
+
+.sport {
+    width: 45vw;
+}
+
+.sport:hover {
+    transform: scale(1.13);
+}
+#aboutApp p {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#aboutApp p:hover {
+    color:#FB806F;
+}
+
+
+#who h1{
+    color: #FB806F;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin: 0;
+}
+.img1{
+    width: 30vw;
+    border-radius: 15px;
+}
+
+.img1:hover {
+    transform: scale(1.1);
+}
+#who .collat {
+    display: flex;
+    justify-content: center;
+}
+
+#who .collat .card {
+    margin: 1rem;
+}
+
+#who .collat .card h3 {
+    color: #96A2FB;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+}
+#who .collat .card h3:hover {
+    color: white;
+}
+
+
+
+#who .collat .card p {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#who .collat .card p:hover {
+    color: #FB806F;
+}
+
+
+.collat2 {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    align-items: flex-start;
+}
+
+.div1 {
+    padding: 0%;
+    width: 25vw;
+    margin: 5vw;
+    margin-top: 10vw;
+}
+.div2 {
+    margin: 5vw;
+    width: 25vw;
+
+}
+.div3 {
+    position: absolute;
+
+}
+
+#aim h1 {
+    color: white;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin: 0;
+}
+
+#aim p {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.div1 {
+    background-color: #24252A;
+    padding: 6vw;
+    border-radius: 20px;
+}
+
+
+/* About Us */
+
+.us {
+    margin-top: 5vw;
+
+    color: #FB806F;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    text-align: center;
+}
+.team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    align-items: center;
+    place-items: center;
+    justify-self: center;
+}
+.vikram {
+    margin: 2vw;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.team h2 {
+    color: #FB806F;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow: #FB806F;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: x-large;
+}
+.team p {
+    font-style: italic;
+
+    color: black;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-shadow: #FB806F;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.team img {
+    width: 20vw;
+    border-radius: 25px;
+
+}

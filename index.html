@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick&Go</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="Pick&GoAssets/Logos/logo-no-background.png" alt="logo-no-background">
+        <nav>
+            <ul class="nav__links">
+                <li><a class="menu" href="index.html">Home</a></li>
+                <li><a class="menu" href="about.html">Us</a></li>
+            </ul>
+        </nav>
+        <a href="https://github.com/VikramChandraNarra/PickupApp" class="cta"><button>Github</button></a>
+    </header>
+
+    <main>
+        <div class="intro">
+            <div>
+                <h1 class="title1">Pick&GO</h1>
+                <h1 class="title2" id="tagline">Be Unbored</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quaerat fuga tenetur temporibus perferendis possimus deserunt asperiores quia natus consequuntur blanditiis qui aspernatur doloremque perspiciatis laboriosam ea maiores, dolores officia!</p>
+
+            </div>
+            <img class="icon" src="Pick&GoAssets/prop.svg" alt="">
+
+        </div>
+        <div class="spacer layer1"></div>
+        <section id="aboutApp">
+            <div>
+                <h1>What Exactly is Pick&Go?</h1>
+                <p>Fugit voluptate nobis est necessitatibus eos aperiam quibusdam id a. Debitis explicabo, officia odit ipsam est ad quae optio quaerat nihil repellendus recusandae repudiandae voluptates provident, deleniti nisi ducimus rerum.</p>    
+            </div>
+            <img class="sport" src="Pick&GoAssets/tennis.png">
+        </section>
+        <div  class="spacer layer1 flip"></div>
+
+        <section id="who">
+            <h1>Who it's for?</h1>
+            <div class="collat">
+                <div class="card">
+                    <img class="img1" src="Pick&GoAssets/community-events.png" alt="">
+                    <h3>Public Events</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur obcaecati at numquam debitis. Aspernatur autem delectus incidunt alias iusto, odit architecto quis numquam. Voluptas excepturi, dicta voluptates quo beatae nostrum.</p>
+                </div>
+                <div class="card">
+                    <img class="img1" src="Pick&GoAssets/sports2.png" alt="">
+                    <h3>Pick Up Sports</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum laboriosam voluptatum nesciunt. Quasi hic adipisci animi? Illum, impedit eum alias est repudiandae ipsa voluptatibus mollitia recusandae, asperiores, eos id deserunt?</p>
+                </div>
+                <div class="card">
+                    <img class="img1" src="Pick&GoAssets/social.png" alt="">
+                    <h3>Social Activites</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad corporis distinctio cumque laboriosam? Ab possimus aperiam mollitia hic rem! Accusamus minus commodi placeat recusandae quod debitis minima, pariatur at eum?</p>
+                </div>
+            </div>
+
+        </section>
+        <div  class="spacer layer2"></div>
+
+        <section id="aim" class="pink">
+            <div class="collat2">
+                <div class="div1">
+                    <h1>Our Aim:</h1>
+                    <p>As motivated computer science students, we aim to create
+                        innovative software and technology that makes the world a better 
+                        place. The rapid growth of technology has reduced human interactions, 
+                        and we aim to use technology itself to bring humans back together. </p>
+                </div>
+                <div class="div2">
+                    <model-viewer src="Pick&GoAssets/totoro.glb" camera-controls auto-rotate rotation-per-second="30deg"></model-viewer>
+                    <!-- <img class="img6" src="Pick&GoAssets/social.png" alt=""> -->
+                </div>
+            </div>
+
+            <div class="div3">
+                <svg id="visual" viewBox="0 0 960 300" width="960" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><g transform="translate(479.34233900370054 129.30708758620935)"><path id="blob1" d="M86.6 -77.6C108.1 -65.1 118.5 -32.5 111.9 -6.6C105.3 19.3 81.7 38.7 60.2 63.7C38.7 88.7 19.3 119.3 -5.7 125C-30.6 130.6 -61.3 111.3 -82.1 86.3C-102.9 61.3 -114 30.6 -112.4 1.5C-110.9 -27.6 -96.8 -55.2 -76 -67.7C-55.2 -80.2 -27.6 -77.6 2.5 -80.1C32.5 -82.5 65.1 -90.1 86.6 -77.6" fill="#dd5d52"></path></g><g style="visibility: hidden" transform="translate(490.740478822219 161.91540795717972)"><path id="blob2" d="M81.5 -79.3C99.3 -63.6 103.2 -31.8 96.6 -6.6C90 18.6 72.9 37.2 55.1 49.7C37.2 62.2 18.6 68.6 -0.2 68.9C-19.1 69.1 -38.2 63.2 -63.2 50.7C-88.2 38.2 -119.1 19.1 -121 -1.9C-122.9 -22.9 -95.7 -45.7 -70.7 -61.4C-45.7 -77.1 -22.9 -85.5 4.5 -90C31.8 -94.5 63.6 -95 81.5 -79.3" fill="#dd5d52"></path></g></svg>
+                <script>
+                    const tween = KUTE.fromTo(
+                        '#blob1',
+                        { path: '#blob1' },
+                        { path: '#blob2' },
+                        { repeat: 999, duration : 3000, yoyo: true }
+    
+                    )
+                    tween.start()
+                </script>
+            </div>
+
+            </div>
+
+
+        </section>
+        <div  class="spacer layer2 flip"></div>
+
+
+
+
+    </main>
+    <hr>
+
+    <footer>
+        <div><p class="name">Pick&Go</p></div>
+        <div><p class="copyright">©️ Copyright Pick&Go</p></div>
+    </footer>
+</body>
+</html>
